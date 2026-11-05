@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Signaler une faille de sécurité
+    url: https://github.com/TerraProxi/.github/blob/main/SECURITY.md
+    about: Ne publiez pas de faille dans une issue publique : suivez la politique de sécurité.
+  - name: Documentation
+    url: https://github.com/TerraProxi/TerraProxi/tree/main/docs
+    about: Installation, guide utilisateur, maintenance et plan de tests.

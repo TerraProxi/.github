@@ -1,0 +1,38 @@
+name: Proposer une fonctionnalité
+description: Une idée d'amélioration pour les consommateurs, les producteurs ou l'équipe
+title: "[Idée] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Pour qui ?
+      options:
+        - Consommateur
+        - Producteur
+        - Administrateur
+        - Équipe technique
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: Besoin
+      description: Quel problème cette fonctionnalité résout-elle ?
+      placeholder: "En tant que producteur, je veux … afin de …"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposition
+      description: Comment l'imaginez-vous ? Écrans, règles, cas limites.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critères d'acceptation
+      description: Scénarios « Étant donné / Quand / Alors » qui serviront de spec Gherkin.
+      placeholder: |
+        Étant donné un producteur connecté
+        Quand il …
+        Alors …

@@ -1,0 +1,49 @@
+name: Signaler un bug
+description: Un comportement inattendu dans l'API, le site ou l'application mobile
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de prendre le temps de signaler ce problème. Pour une faille de sécurité, n'ouvrez pas
+        d'issue : utilisez l'onglet **Security** → **Report a vulnerability**.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Partie concernée
+      options:
+        - API
+        - Site web
+        - Application mobile
+        - Infrastructure / déploiement
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Ce qui se passe
+      description: Décrivez le problème et ce que vous attendiez à la place.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes pour reproduire
+      placeholder: |
+        1. Se connecter en tant que producteur
+        2. Ouvrir « Mes commandes »
+        3. …
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environnement
+      placeholder: "Chrome 130 sur Windows, Android 14, commit abc1234…"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Captures ou journaux
+      description: Capture d'écran, message d'erreur, identifiant de requête (en-tête X-Request-Id). Aucun mot de passe ni jeton.
