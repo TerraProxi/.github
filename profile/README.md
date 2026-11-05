@@ -40,7 +40,6 @@ Projet **2427-25** du Cycle d'Innovation Digitale de l'EPSI Montpellier.
 | Dépôt | Contenu |
 |-------|---------|
 | [**TerraProxi**](https://github.com/TerraProxi/TerraProxi) | Monorepo de la plateforme : API, site web, application mobile, specs et documentation |
-| [ComingSoon](https://github.com/TerraProxi/ComingSoon) | Page d'accueil publique de [terraproxi.fr](https://terraproxi.fr) |
 | [Prototype-Front](https://github.com/TerraProxi/Prototype-Front) | Prototype d'interface de la phase de conception (archivé) |
 
 ## Stack technique

@@ -19,7 +19,6 @@ Merci de nous laisser le temps de corriger avant toute divulgation.
 | Dépôt | Suivi |
 |-------|-------|
 | [TerraProxi](https://github.com/TerraProxi/TerraProxi) (API, site web, application mobile) | ✅ branche `main` |
-| [ComingSoon](https://github.com/TerraProxi/ComingSoon) | ✅ |
 | [Prototype-Front](https://github.com/TerraProxi/Prototype-Front) | ❌ archivé, non maintenu |
 
 ## Ce que nous protégeons
